@@ -1,0 +1,67 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+}
+
+header {
+    height: 150px;
+    background-color: darkolivegreen;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+header h1 {
+    padding-top: 50px;
+    text-decoration: underline;
+}
+
+header nav {
+    padding: 17px;
+    margin: 20px;
+}
+
+header nav a{
+    color: rgb(217, 236, 224);
+    text-decoration: none;
+    padding: 5px 10px 5px 10px;
+    transition: .3s;
+}
+
+nav a:hover {
+    background-color: aliceblue;
+    color: rgb(23, 24, 26);
+    text-decoration: underline;
+    margin: 15px;
+}
+
+main {
+    max-width: 800px;
+    border-radius: 10px;
+    padding: 15px;
+    margin: auto;
+    background-color: rgb(118, 153, 132);
+}
+
+.p {
+    margin: 30px;
+}
+
+.article {
+    margin: auto;
+    padding: 30px;
+    width: 220px;
+    height: 220px;
+    background-color: rgb(8, 114, 64);
+}
+
+footer {
+    padding: 5px;
+    margin-top: 15px;
+    text-align: center;
+    background-color: rgb(21, 109, 82);
+}
