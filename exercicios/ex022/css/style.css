@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url('../img/wallpaper001.jpg');
+}
+
+div {
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: lightgray;
+    width: 300px;
+    height: 300px;
+}
+
+#c1 {
+    background-color: aqua;
+}
+
+#c2 {
+    background-image: linear-gradient(to bottom, blue, red);
+}
+
+#c3 {
+    background-image: url('../img/wallpaper002.jpg');
+}
