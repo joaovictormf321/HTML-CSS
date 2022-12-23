@@ -1,0 +1,16 @@
+body {
+    /* shorthand baqckground */
+
+    background: black url('../img/wallpaper002.jpg') center no-repeat fixed;
+    background-size: cover;
+}
+
+main {
+    background-color: white;
+    text-align: center;
+    margin: auto;
+    max-width: 500px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+}
